@@ -1,0 +1,6 @@
+inicio
+    leia nota1
+    leia nota2
+    soma nota1 + nota2
+    escreva media
+fim
