@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deoclécio Spielmann</title>
+    <meta name="description" content="Portfólio de Deoclécio Spielmann - Desenvolvedor Web especializado em HTML, CSS e JavaScript.">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container"> 
+        
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="Project.html">Projetos</a></li>
+                    <li><a href="Contact.html">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="center">
+                <p>Bem-vindo ao meu portfólio!</p>
+                <img src="./img/DSP.jpg" alt="Foto de perfil de Deoclécio Spielmann, desenvolvedor web">      
+                <h1>Deoclécio Spielmann</h1>
+                <h2>Desenvolvedor Web</h2>            
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <h3>Sobre Mim</h3>
+                <p>Olá! Meu nome é Deoclécio Spielmann, sou um desenvolvedor web apaixonado por criar experiências 
+                    digitais incríveis. Tenho experiência em HTML, CSS e JavaScript, 
+                    e estou sempre aprendendo novas tecnologias para aprimorar minhas habilidades.</p>
+                <p>Meu objetivo é desenvolver sites e aplicações que sejam não apenas funcionais, 
+                    mas também visualmente atraentes e fáceis de usar.</p>
+            </article>
+
+            <article>
+                <h3>Cursos</h3>
+                <p>Jovem Programador SENAC.sc</p>
+            </article>    
+
+            <article>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>            
+                </ul>
+            </article>
+
+            <article>    
+                <h3>Projetos</h3>
+                <p>Confira alguns dos meus projetos mais recentes:</p>
+                <ul>
+                    <li><a href="Project.html#portfolio">Projeto 1: Site de Portfólio</a></li>
+                    <li><a href="Project.html#tarefas">Projeto 2: Aplicação de Tarefas</a></li>
+                    <li><a href="Project.html#jogo">Projeto 3: Jogo Interativo</a></li>
+                </ul>
+            </article>
+        </main>
+
+        <footer>
+            <div class="social">
+                <a href="https://github.com/DeoclecioSpielmann1" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://instagram.com/deocleciospielmann" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/deoclecio-spielmann-19b144349" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <p>© <span id="year"></span> Deoclécio Spielmann. Todos os direitos reservados.</p> 
+        </footer>
+    </div>    
+
+    <script>        
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

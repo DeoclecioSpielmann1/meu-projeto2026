@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #f84b20;
+    margin: 0;
+    padding: 0;
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+        url("img/WEB.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    background: #802c2c;
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #6ef852;
+}
+
+header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #802c2c;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin: 15px 0 5px;
+    color: white; /* Melhor contraste */
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #802c2c;
+    border: #802c2c 2px solid;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+main h3 {
+    margin-top: 30px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+main p, main ul {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #802c2c;
+    margin-top: 40px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social a {
+    margin: 0 15px;
+    font-size: 40px;
+    color: white;
+    transition: color 0.3s;
+}
+
+footer .social a:hover {
+    color: #48ff00;
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+}
